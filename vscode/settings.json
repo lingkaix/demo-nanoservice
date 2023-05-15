@@ -1,0 +1,13 @@
+{
+  "protoc": {
+      "path": "/usr/local/bin/protoc",
+      "compile_on_save": true,
+      "compile_all_path": "/Users/lingkaixu/Documents/GitHub/demo-nanoservice/protos",
+      "options": [
+          "--proto_path=/Users/lingkaixu/Documents/GitHub/demo-nanoservice/protos",
+          // "--proto_path=./protos",
+          // "--go_out=plugins=grpc:/Users/lingkaixu/Documents/GitHub/demo-nanoservice/protos"
+          "--go_out=plugins=grpc:./protos"
+      ]
+  }
+}

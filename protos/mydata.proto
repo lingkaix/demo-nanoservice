@@ -1,0 +1,13 @@
+syntax = "proto3";
+option go_package = "github.com/lingkaix/demo-ns/mydata";
+// package mydata;
+
+message Input {
+  repeated int32 int_values = 1;
+  repeated string string_values = 2;
+}
+
+message Output {
+  int32 int_result = 1;
+  string string_result = 2;
+}
